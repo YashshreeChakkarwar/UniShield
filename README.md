@@ -136,9 +136,9 @@ https://drive.google.com/file/d/1IT_pAh6blmT2tqGbwaVUGZfnchltHdM6/view?usp=shari
 This project was built for academic purposes — Graph-Based Cyber Defense System for University Networks.
 
 ## GROUP NUMBER :- 17
---> Group Members
-   - Sharyu Chavan
-   - Vaishnavi chalke 
-   - Shruti Pohankar
-   -Yashshree Chakkarwar
+-->  Members
+ - Sharyu Chavan
+ - Vaishnavi chalke 
+ - Shruti Pohankar
+ -Yashshree Chakkarwar
 
