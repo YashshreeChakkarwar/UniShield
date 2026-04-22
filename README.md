@@ -137,8 +137,8 @@ This project was built for academic purposes — Graph-Based Cyber Defense Syste
 
 ## GROUP NUMBER :- 17
 --> Group Members
-    Sharyu Chavan
-    Vaishnavi chalke 
-    Shruti Pohankar
-    Yashshree Chakkarwar
+   - Sharyu Chavan
+   - Vaishnavi chalke 
+   - Shruti Pohankar
+    -Yashshree Chakkarwar
 
