@@ -6,6 +6,8 @@ A **Java Desktop Application** built with **JavaFX** that simulates, detects, an
 
 ## 📌 Problem Statement
 
+Design a graph-based cyber defense system that simulates malware spread in a network and uses efficient Data Structures and Algorithms to identify critical nodes and apply optimized containment strategies to minimize damage.
+## Discription
 University networks are complex — hundreds of devices (student laptops, lab computers, exam servers) are interconnected via WiFi and file-sharing links. A single compromised device can rapidly spread malware across the entire network, threatening critical infrastructure like exam and attendance servers.
 
 **UniShield** models this university network as a **graph** and provides:
@@ -126,6 +128,17 @@ Unishield/
 
 ---
 
+## VIDEO LINK
+https://drive.google.com/file/d/1IT_pAh6blmT2tqGbwaVUGZfnchltHdM6/view?usp=sharing
+
 ## 📜 License
 
 This project was built for academic purposes — Graph-Based Cyber Defense System for University Networks.
+
+## GROUP NUMBER :- 17
+--> Group Members
+    Sharyu Chavan
+    Vaishnavi chalke 
+    Shruti Pohankar
+    Yashshree Chakkarwar
+
