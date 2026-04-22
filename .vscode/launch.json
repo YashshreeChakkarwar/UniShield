@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "com.unishield.MainApp",
+            "projectName": "Unishield_694a1073"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniShield",
+            "request": "launch",
+            "mainClass": "com.unishield.Launcher",
+            "vmArgs": "--module-path lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls",
+            "classPaths": [
+                "out",
+                "lib/mysql-connector-j-8.3.0.jar"
+            ],
+            "projectName": "Unishield"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+/*
+ * ============================================================
+ * UniShield - Dark Cybersecurity Theme
+ * ============================================================
+ * Premium dark theme with cyan/green accents for the
+ * Graph-Based Cyber Defense System dashboard.
+ */
+
+/* ---- Root Background ---- */
+.root {
+    -fx-background-color: #0a0e17;
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* ---- Scroll Panes ---- */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* ---- Tab Pane Styling ---- */
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: #0d1520;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-color: #141b2d;
+    -fx-border-color: #1e2a3a;
+    -fx-border-width: 1 1 0 1;
+    -fx-background-radius: 6 6 0 0;
+    -fx-border-radius: 6 6 0 0;
+    -fx-padding: 8 16;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: #1a2332;
+    -fx-border-color: #00d4ff #1e2a3a transparent #1e2a3a;
+    -fx-border-width: 2 1 0 1;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-text-fill: #6c7a8e;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-text-fill: #00d4ff;
+}
+
+.tab-pane > .tab-content-area {
+    -fx-background-color: #0d1520;
+    -fx-border-color: #1e2a3a;
+    -fx-border-width: 1;
+}
+
+/* ---- Table View ---- */
+.table-view {
+    -fx-background-color: #0d1520;
+    -fx-border-color: #1e2a3a;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #141b2d;
+}
+
+.table-view .column-header {
+    -fx-background-color: #141b2d;
+    -fx-border-color: transparent transparent #1e2a3a transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #8892a4;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #0d1520;
+    -fx-border-color: transparent transparent #141b2d transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #00d4ff22;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #0f1825;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #c0c8d8;
+    -fx-font-size: 11px;
+    -fx-padding: 4 8;
+}
+
+.table-view .table-row-cell:selected .table-cell {
+    -fx-text-fill: #e0f0ff;
+}
+
+/* Corner region fix */
+.table-view .column-header-background .filler {
+    -fx-background-color: #141b2d;
+}
+
+/* ---- Text Area ---- */
+.text-area {
+    -fx-background-color: #0d1520;
+    -fx-border-color: #1e2a3a;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.text-area .content {
+    -fx-background-color: #0d1520;
+    -fx-background-radius: 8;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: #0d1520;
+}
+
+.text-area .scroll-pane .viewport {
+    -fx-background-color: #0d1520;
+}
+
+/* ---- List View ---- */
+.list-view {
+    -fx-background-color: #0d1520;
+    -fx-border-color: #1e2a3a;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c0c8d8;
+    -fx-font-size: 11px;
+    -fx-padding: 6 10;
+}
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #00d4ff22;
+    -fx-text-fill: #e0f0ff;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #141b2d;
+}
+
+/* ---- Scroll Bars ---- */
+.scroll-bar {
+    -fx-background-color: #0d1520;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #1e2a3a;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #2a3a50;
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}
+
+/* ---- Combo Box ---- */
+.combo-box {
+    -fx-background-color: #0d1520;
+    -fx-border-color: #1e2a3a;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #c0c8d8;
+    -fx-font-size: 12px;
+    -fx-background-color: #0d1520;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #141b2d;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-background-color: #141b2d;
+    -fx-text-fill: #c0c8d8;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #1e2a3a;
+}
+
+/* ---- Tooltip ---- */
+.tooltip {
+    -fx-background-color: #1a2332;
+    -fx-text-fill: #e0e6f0;
+    -fx-border-color: #00d4ff44;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 12px;
+    -fx-padding: 8 12;
+}

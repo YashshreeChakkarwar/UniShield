@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "lib/javafx-sdk-23.0.1/lib/*.jar",
+        "lib/mysql-connector-j-8.3.0.jar"
+    ],
+    "java.debug.settings.vmArgs": "--module-path lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls",
+    "java.jdt.ls.vmargs": "--module-path lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls"
+}
